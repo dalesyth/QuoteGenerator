@@ -22,8 +22,8 @@ function displayQuote(quote) {
   console.log("Quote: ", quote);
   quoteContainer.innerHTML = `
 
-        <h1>${quote[0].content}</h1>
-        <p>${quote[0].author}</p>
+        <h3>"${quote[0].content}"</h3>
+        <p>-- ${quote[0].author}</p>
         
     
     `;
